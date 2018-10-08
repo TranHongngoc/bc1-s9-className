@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class Name</title>
+</head>
+<body>
+<script>
+    function checkClassName(str) {
+        var regexp = /^[CPA]{1}[0-9]{4}[GHIKLM]$/;
+        if (regexp.test(str)) {
+            return true;
+        }return false;
+    }
+    var name = 'C0897H';
+    console.log(checkClassName(name));
+    var name = 'V8976K';
+    console.log(checkClassName(name));
+</script>
+</body>
+</html>
